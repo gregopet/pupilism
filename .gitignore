@@ -1,0 +1,5 @@
+build/
+pupilism.iml
+.idea/
+.gradle/
+out/

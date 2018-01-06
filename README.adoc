@@ -1,0 +1,3 @@
+= Pupilism
+
+Charity project to help local school schedule after class groups.
