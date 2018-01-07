@@ -70,7 +70,7 @@ object DistributionSpec: Spek({
 
     given("A distributor working on pupils enrolled in activities") {
         //activities
-        var firstPeriod = Activity(1, listOf(mondaySlots[0], tuesdaySlots[0]))
+        var firstPeriod = Activity("Judo 1", listOf(mondaySlots[0], tuesdaySlots[0]))
 
         it("Produces one partition per given time slot") {
             assert.that(distribute(pupilsA + pupilsB, emptyMap(), mondaySlots), hasSize(equalTo(mondaySlots.size)))
