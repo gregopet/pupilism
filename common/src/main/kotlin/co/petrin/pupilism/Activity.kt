@@ -5,4 +5,6 @@ package co.petrin.pupilism
  * @property id A unique ID for this property
  * @property timeSlots The timeslots this activity occupies
  */
-class Activity(val id: Int, val timeSlots: List<TimeSlot>)
+class Activity(val id: String, val timeSlots: List<TimeSlot>) {
+    override fun toString(): String = id
+}
