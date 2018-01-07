@@ -11,7 +11,7 @@ class Time (time: String): Comparable<Time> {
         minute = components[1].toInt()
     }
 
-    override fun toString() = "$hour:$minute"
+    override fun toString() = "$hour:${minute.toString().padStart(2, '0')}"
     override fun equals(other: Any?) = other is Time && other.hour == this.hour && other.minute == this.minute
     override fun hashCode() = hour * 60 + minute
     override fun compareTo(other: Time) = when {
