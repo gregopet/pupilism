@@ -18,6 +18,7 @@ apply plugin: 'kotlin-platform-jvm'
 apply plugin: 'org.junit.platform.gradle.plugin'
 apply plugin: 'application'
 
+mainClassName = "co.petrin.pupilism.ui.ApplicationKt"
 
 repositories {
     mavenCentral()
@@ -27,11 +28,15 @@ dependencies {
     expectedBy project(":common")
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
+    // GUI
+    compile 'no.tornado:tornadofx:1.7.14'
+
     // Jackson
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.9.2'
     compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-kotlin', version: '2.9.2'
     compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.9.2'
     compile group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: kotlin_version
+
 
     // Spek & Hamkrest
     testCompile group: 'com.natpryce', name: 'hamkrest', version: '1.4.2.2'
