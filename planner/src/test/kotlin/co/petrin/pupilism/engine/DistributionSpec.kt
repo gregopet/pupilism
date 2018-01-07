@@ -1,7 +1,6 @@
-package co.petrin.pupulism.engine
+package co.petrin.pupilism.engine
 
 import co.petrin.pupilism.*
-import co.petrin.pupilism.engine.*
 import com.natpryce.hamkrest.*
 import org.jetbrains.spek.api.Spek
 import org.jetbrains.spek.api.dsl.it
