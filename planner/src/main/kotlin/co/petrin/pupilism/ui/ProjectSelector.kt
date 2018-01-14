@@ -15,6 +15,9 @@ import tornadofx.*
 /** Special name of the sample project that can be loaded from app's resources for demo purposes */
 private val SAMPLE_PROJECT = "Vzorec"
 
+/** Special name of the simple project that can be loaded from app's resources for demo purposes */
+private val SIMPLE_PROJECT = "Preprost vzorec"
+
 class ProjectSelector : View("Podaljšano bivanje učencev") {
     override val root: Parent
 
@@ -41,6 +44,8 @@ class ProjectSelector : View("Podaljšano bivanje učencev") {
                 onUserSelect { proj ->
                     val projectFileReader = if (proj === SAMPLE_PROJECT) {
                         ProjectSelector::class.java.getResourceAsStream("/sampleProject.yaml").reader()
+                    } else if (proj === SIMPLE_PROJECT) {
+                        ProjectSelector::class.java.getResourceAsStream("/simpleProject.yaml").reader()
                     } else {
                         getStoredProject(proj, projectsFolder).reader()
                     }
@@ -72,6 +77,6 @@ class ProjectSelector : View("Podaljšano bivanje učencev") {
         }
 
         // Load names of projects that exist in the project folder
-        existingProjects.addAll(getStoredProjects(projectsFolder) + SAMPLE_PROJECT)
+        existingProjects.addAll(getStoredProjects(projectsFolder) + SIMPLE_PROJECT + SAMPLE_PROJECT)
     }
 }

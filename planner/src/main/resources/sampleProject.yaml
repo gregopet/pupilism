@@ -1,21 +1,5015 @@
 classes:
 - 1A
-- 3B
-times:
-- from: 14:30
+- 1B
+- 2A
+- 2B
+- 3A
+- 4A
+- 4B
+- 5A
+- 5B
+- 6A
+- 7A
+- 7B
+- 7C
+- 8A
+- 8B
+- 9A
+- 9B
+times: 
+- from: 13:10
+  to: 14:00
+- from: 14:10
   to: 15:00
-- from: 10:00
-  to: 11:00
+- from: 15:10
+  to: 16:00
+- from: 16:10
+  to: 17:00
 activities:
 - id: Judo 1
   timeSlots:
+  - day: Sreda
+    from: 13:10
+    to: 14:00
+  - day: Torek
+    from: 16:10
+    to: 17:00
+- id: Judo 2
+  timeSlots:
+  - day: Petek
+    from: 14:10
+    to: 15:00
+  - day: Četrtek
+    from: 16:10
+    to: 17:00
+- id: Gimnastika 1
+  timeSlots:
+  - day: Sreda
+    from: 14:10
+    to: 15:00
+- id: Gimnastika 2
+  timeSlots:
+  - day: Sreda
+    from: 13:10
+    to: 14:00
+- id: Šah
+  timeSlots:
+  - day: Četrtek
+    from: 14:10
+    to: 15:00
+- id: Nogomet 1
+  timeSlots:
   - day: Ponedeljek
-    from: 14:30
-    to: 12:00
+    from: 14:10
+    to: 15:00
+  - day: Sreda
+    from: 14:10
+    to: 15:00
+- id: Nogomet 2
+  timeSlots:
+  - day: Sreda
+    from: 16:10
+    to: 17:00
+  - day: Torek
+    from: 16:10
+    to: 17:00
+- id: Košarka
+  timeSlots:
+  - day: Sreda
+    from: 16:10
+    to: 17:00
+- id: Lego
+  timeSlots:
+  - day: Petek
+    from: 13:10
+    to: 14:00
+- id: Računalništvo
+  timeSlots:
+  - day: Ponedeljek
+    from: 15:10
+    to: 16:00
+- id: Planinski
+  timeSlots:
+  - day: Sreda
+    from: 14:10
+    to: 15:00
+  - day: Ponedeljek
+    from: 15:10
+    to: 16:00
+- id: Angleščina
+  timeSlots:
+  - day: Četrtek
+    from: 14:10
+    to: 15:00
+  - day: Ponedeljek
+    from: 14:10
+    to: 15:00
+- id: Knjižnjičarski
+  timeSlots:
+  - day: Sreda
+    from: 15:10
+    to: 16:00
+- id: Novinarski
+  timeSlots:
+  - day: Sreda
+    from: 13:10
+    to: 14:00
+- id: Zgodovinarski
+  timeSlots:
+  - day: Petek
+    from: 15:10
+    to: 16:00
+- id: Kemijski
+  timeSlots:
+  - day: Torek
+    from: 16:10
+    to: 17:00
+- id: Igrajmo se znanost
+  timeSlots:
+  - day: Sreda
+    from: 15:10
+    to: 16:00
+  - day: Petek
+    from: 16:10
+    to: 17:00
+- id: Pevski zbor najmlajši
+  timeSlots:
+  - day: Ponedeljek
+    from: 16:10
+    to: 17:00
+- id: Pevski zbor mlajši
+  timeSlots:
+  - day: Ponedeljek
+    from: 15:10
+    to: 16:00
+  - day: Četrtek
+    from: 15:10
+    to: 16:00
+- id: Pevski zbor starejši
+  timeSlots:
+  - day: Sreda
+    from: 14:10
+    to: 15:00
+  - day: Ponedeljek
+    from: 15:10
+    to: 16:00
+- id: Plesne urice
+  timeSlots:
+  - day: Sreda
+    from: 13:10
+    to: 14:00
+  - day: Torek
+    from: 13:10
+    to: 14:00
 pupils:
-- name: Janez Novak
+- name: Lesjak Jerneja
   klass: 1A
   activities:
-  - Judo 1
+    - Gimnastika 2
   leaveTimes:
-    Ponedeljek: 14:30
+    Ponedeljek:
+    Torek: 14:20
+    Sreda: 14:51
+    Četrtek: 12:28
+    Petek: 13:27
+- name: Jelen Urška
+  klass: 1A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:58
+    Sreda: 17:09
+    Četrtek: 16:24
+    Petek: 16:57
+- name: Uršič Leon
+  klass: 1A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:16
+    Sreda: 17:10
+    Četrtek: 14:01
+    Petek: 12:58
+- name: Pogačar Zvonko
+  klass: 1A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:33
+    Sreda: 16:13
+    Četrtek: 16:31
+    Petek: 17:56
+- name: Pečnik Silvo
+  klass: 1A
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:08
+    Sreda: 13:16
+    Četrtek: 12:44
+    Petek: 17:01
+- name: Klemenčič Mirko
+  klass: 1A
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:07
+    Sreda: 17:00
+    Četrtek: 16:32
+    Petek: 14:58
+- name: Sitar Danilo
+  klass: 1A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:29
+    Sreda: 15:36
+    Četrtek: 15:19
+    Petek: 16:16
+- name: Leskovar Zofija
+  klass: 1A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:13
+    Sreda: 12:29
+    Četrtek: 16:39
+    Petek: 16:42
+- name: Povše Tina
+  klass: 1A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:14
+    Sreda: 14:20
+    Četrtek: 12:45
+    Petek: 15:11
+- name: Hrovat Miroslav
+  klass: 1A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:41
+    Sreda: 13:05
+    Četrtek: 14:11
+    Petek: 16:26
+- name: Potočnik Primož
+  klass: 1A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:09
+    Sreda: 13:04
+    Četrtek: 15:14
+    Petek: 17:08
+- name: Hočevar Miroslav
+  klass: 1A
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:24
+    Sreda: 13:41
+    Četrtek: 17:01
+    Petek: 17:31
+- name: Gomboc Metka
+  klass: 1A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:12
+    Sreda: 16:29
+    Četrtek: 16:17
+    Petek: 14:42
+- name: Žibert Peter
+  klass: 1A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:37
+    Sreda: 17:49
+    Četrtek: 16:17
+    Petek: 13:32
+- name: Jazbec Jana
+  klass: 1A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:11
+    Sreda: 17:33
+    Četrtek: 16:33
+    Petek: 12:47
+- name: Begić Klara
+  klass: 1A
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:38
+    Sreda: 14:49
+    Četrtek: 13:32
+    Petek: 17:48
+- name: Rajh Neža
+  klass: 1A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:01
+    Sreda: 15:52
+    Četrtek: 17:39
+    Petek: 14:30
+- name: Sušnik Albina
+  klass: 1A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:40
+    Sreda: 15:29
+    Četrtek: 12:30
+    Petek: 16:25
+- name: Mlakar Gašper
+  klass: 1A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:47
+    Sreda: 14:28
+    Četrtek: 17:02
+    Petek: 13:00
+- name: Popović Neža
+  klass: 1A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:59
+    Sreda: 14:02
+    Četrtek: 15:37
+    Petek: 14:49
+- name: Kolar Gregor
+  klass: 1A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:41
+    Sreda: 14:49
+    Četrtek: 14:57
+    Petek: 16:41
+- name: Bregar Stanko
+  klass: 1A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:17
+    Sreda: 15:14
+    Četrtek: 14:14
+    Petek: 13:02
+- name: Nikolić Vanja
+  klass: 1A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:42
+    Sreda: 17:01
+    Četrtek: 15:03
+    Petek: 17:57
+- name: Bogataj Vid
+  klass: 1A
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:17
+    Sreda: 17:01
+    Četrtek: 13:57
+    Petek: 12:51
+- name: Novak Branka
+  klass: 1A
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:58
+    Sreda: 16:14
+    Četrtek: 14:44
+    Petek: 16:37
+- name: Močnik Andraž
+  klass: 1A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:56
+    Sreda: 14:47
+    Četrtek: 16:36
+    Petek: 14:49
+- name: Povše Ivana
+  klass: 1A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:54
+    Sreda: 14:13
+    Četrtek: 12:51
+    Petek: 12:23
+- name: Demšar Anamarija
+  klass: 1B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:27
+    Sreda: 16:31
+    Četrtek: 12:45
+    Petek: 14:23
+- name: Pogačar Miroslav
+  klass: 1B
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:52
+    Sreda: 16:51
+    Četrtek: 14:08
+    Petek: 13:27
+- name: Rožič Leopold
+  klass: 1B
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:25
+    Sreda: 17:22
+    Četrtek: 15:48
+    Petek: 14:39
+- name: Jerič Aljoša
+  klass: 1B
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:18
+    Sreda: 13:04
+    Četrtek: 14:41
+    Petek: 12:33
+- name: Tomšič Mojca
+  klass: 1B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:30
+    Sreda: 12:20
+    Četrtek: 14:20
+    Petek: 17:57
+- name: Kočevar Alja
+  klass: 1B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:07
+    Sreda: 17:53
+    Četrtek: 16:51
+    Petek: 16:15
+- name: Leskovar Mojca
+  klass: 1B
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:06
+    Sreda: 13:35
+    Četrtek: 13:29
+    Petek: 16:48
+- name: Jamnik Albin
+  klass: 1B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:29
+    Sreda: 16:15
+    Četrtek: 15:02
+    Petek: 14:40
+- name: Dolenc Marta
+  klass: 1B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:37
+    Sreda: 14:57
+    Četrtek: 17:38
+    Petek: 14:55
+- name: Kuhar Mario
+  klass: 1B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:24
+    Sreda: 12:56
+    Četrtek: 12:48
+    Petek: 12:15
+- name: Hren Bor
+  klass: 1B
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:24
+    Sreda: 13:39
+    Četrtek: 12:42
+    Petek: 12:31
+- name: Zupančič Magdalena
+  klass: 1B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:30
+    Sreda: 15:53
+    Četrtek: 12:44
+    Petek: 16:28
+- name: Mavrič Larisa
+  klass: 1B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:18
+    Sreda: 12:19
+    Četrtek: 16:56
+    Petek: 13:18
+- name: Savić Sebastijan
+  klass: 1B
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:32
+    Sreda: 16:14
+    Četrtek: 15:45
+    Petek: 15:01
+- name: Kotnik Alojzij
+  klass: 1B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:03
+    Sreda: 13:51
+    Četrtek: 15:53
+    Petek: 15:19
+- name: Bezjak Simon
+  klass: 1B
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:43
+    Sreda: 15:19
+    Četrtek: 14:28
+    Petek: 13:16
+- name: Zupanc Izidor
+  klass: 1B
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:43
+    Sreda: 17:02
+    Četrtek: 14:52
+    Petek: 16:44
+- name: Ambrožič Jelka
+  klass: 1B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:30
+    Sreda: 14:29
+    Četrtek: 12:57
+    Petek: 13:08
+- name: Kolarič Urša
+  klass: 1B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:10
+    Sreda: 17:20
+    Četrtek: 17:36
+    Petek: 15:20
+- name: Rupnik Nik
+  klass: 1B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:04
+    Sreda: 14:31
+    Četrtek: 16:37
+    Petek: 14:11
+- name: Kovačič Davor
+  klass: 1B
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:10
+    Sreda: 16:35
+    Četrtek: 13:16
+    Petek: 12:41
+- name: Pavlović Jan
+  klass: 1B
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:00
+    Sreda: 15:43
+    Četrtek: 17:18
+    Petek: 13:20
+- name: Černe Marica
+  klass: 1B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:50
+    Sreda: 16:11
+    Četrtek: 14:09
+    Petek: 12:42
+- name: Jerman Janja
+  klass: 1B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:57
+    Sreda: 17:08
+    Četrtek: 14:31
+    Petek: 12:01
+- name: Majcen Lilijana
+  klass: 1B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:52
+    Sreda: 16:21
+    Četrtek: 12:56
+    Petek: 12:27
+- name: Primožič Vincenc
+  klass: 1B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:39
+    Sreda: 15:43
+    Četrtek: 14:37
+    Petek: 17:19
+- name: Pečnik Marjeta
+  klass: 1B
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:49
+    Sreda: 14:15
+    Četrtek: 12:35
+    Petek: 16:48
+- name: Ilić Nikola
+  klass: 2A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:06
+    Sreda: 15:34
+    Četrtek: 12:29
+    Petek: 15:46
+- name: Kralj David
+  klass: 2A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:55
+    Sreda: 12:24
+    Četrtek: 15:02
+    Petek: 12:43
+- name: Jug Vera
+  klass: 2A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:25
+    Sreda: 17:24
+    Četrtek: 12:19
+    Petek: 14:15
+- name: Hafner Milena
+  klass: 2A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:25
+    Sreda: 12:40
+    Četrtek: 16:20
+    Petek: 17:05
+- name: Podgoršek Lidija
+  klass: 2A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:43
+    Sreda: 16:09
+    Četrtek: 13:17
+    Petek: 16:19
+- name: Žižek Tian
+  klass: 2A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:24
+    Sreda: 15:56
+    Četrtek: 15:45
+    Petek: 14:24
+- name: Fras Tine
+  klass: 2A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:58
+    Sreda: 13:37
+    Četrtek: 14:26
+    Petek: 16:11
+- name: Lavrič Doroteja
+  klass: 2A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:00
+    Sreda: 16:25
+    Četrtek: 17:54
+    Petek: 14:08
+- name: Kolar Rene
+  klass: 2A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:08
+    Sreda: 13:38
+    Četrtek: 15:42
+    Petek: 16:03
+- name: Toplak Ela
+  klass: 2A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:03
+    Sreda: 15:48
+    Četrtek: 15:13
+    Petek: 14:12
+- name: Kokalj Nikolaj
+  klass: 2A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:00
+    Sreda: 16:35
+    Četrtek: 16:01
+    Petek: 15:55
+- name: Javornik Karmen
+  klass: 2A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:21
+    Sreda: 17:40
+    Četrtek: 16:12
+    Petek: 14:05
+- name: Lesjak Primož
+  klass: 2A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:11
+    Sreda: 12:56
+    Četrtek: 14:09
+    Petek: 12:49
+- name: Dolinar Irma
+  klass: 2A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:52
+    Sreda: 13:59
+    Četrtek: 14:06
+    Petek: 15:47
+- name: Petrović Drago
+  klass: 2A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:45
+    Sreda: 17:17
+    Četrtek: 12:12
+    Petek: 16:34
+- name: Lesjak Kristina
+  klass: 2A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:57
+    Sreda: 16:33
+    Četrtek: 14:40
+    Petek: 17:50
+- name: Horvat Anica
+  klass: 2A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:27
+    Sreda: 17:19
+    Četrtek: 17:40
+    Petek: 13:19
+- name: Likar Valentina
+  klass: 2A
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:00
+    Sreda: 17:42
+    Četrtek: 17:41
+    Petek: 15:41
+- name: Mrak Stojan
+  klass: 2A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:41
+    Sreda: 15:27
+    Četrtek: 15:25
+    Petek: 14:44
+- name: Kramberger Mirjana
+  klass: 2A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:33
+    Sreda: 16:11
+    Četrtek: 14:29
+    Petek: 15:34
+- name: Eržen Eva
+  klass: 2A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:33
+    Sreda: 16:32
+    Četrtek: 16:34
+    Petek: 16:31
+- name: Bezjak Simona
+  klass: 2A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:16
+    Sreda: 14:50
+    Četrtek: 13:09
+    Petek: 17:03
+- name: Štrukelj Breda
+  klass: 2A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:51
+    Sreda: 14:01
+    Četrtek: 13:49
+    Petek: 16:15
+- name: Fras Cvetka
+  klass: 2A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:46
+    Sreda: 12:00
+    Četrtek: 14:35
+    Petek: 16:03
+- name: Čuk Teo
+  klass: 2A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:37
+    Sreda: 12:03
+    Četrtek: 12:13
+    Petek: 15:30
+- name: Kocjančič Danijel
+  klass: 2A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:30
+    Sreda: 12:27
+    Četrtek: 16:39
+    Petek: 15:08
+- name: Lešnik Sandi
+  klass: 2A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:32
+    Sreda: 16:33
+    Četrtek: 12:29
+    Petek: 12:09
+- name: Mlinar Saša
+  klass: 2A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:47
+    Sreda: 16:56
+    Četrtek: 16:36
+    Petek: 14:27
+- name: Pintar Viktorija
+  klass: 2A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:58
+    Sreda: 14:06
+    Četrtek: 17:31
+    Petek: 13:06
+- name: Petrović Rudi
+  klass: 2B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:40
+    Sreda: 14:27
+    Četrtek: 17:10
+    Petek: 12:04
+- name: Eržen Tia
+  klass: 2B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:53
+    Sreda: 15:59
+    Četrtek: 15:33
+    Petek: 13:38
+- name: Marković Timotej
+  klass: 2B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:26
+    Sreda: 14:24
+    Četrtek: 13:50
+    Petek: 15:33
+- name: Fras Tadej
+  klass: 2B
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:15
+    Sreda: 17:08
+    Četrtek: 13:12
+    Petek: 17:58
+- name: Klemenčič Romana
+  klass: 2B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:31
+    Sreda: 14:28
+    Četrtek: 13:26
+    Petek: 14:30
+- name: Gregorič Senad
+  klass: 2B
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:52
+    Sreda: 13:49
+    Četrtek: 13:41
+    Petek: 16:02
+- name: Čeh Srečko
+  klass: 2B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:56
+    Sreda: 13:23
+    Četrtek: 14:37
+    Petek: 12:12
+- name: Žižek Stanislava
+  klass: 2B
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:04
+    Sreda: 14:27
+    Četrtek: 16:52
+    Petek: 14:15
+- name: Mihelič Avgust
+  klass: 2B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:57
+    Sreda: 14:27
+    Četrtek: 12:51
+    Petek: 14:36
+- name: Tavčar Blanka
+  klass: 2B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:23
+    Sreda: 13:59
+    Četrtek: 14:53
+    Petek: 14:25
+- name: Babić Mira
+  klass: 2B
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:20
+    Sreda: 12:10
+    Četrtek: 16:32
+    Petek: 14:53
+- name: Rajh Jelena
+  klass: 2B
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:16
+    Sreda: 15:18
+    Četrtek: 13:22
+    Petek: 17:15
+- name: Hozjan Bor
+  klass: 2B
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:58
+    Sreda: 14:17
+    Četrtek: 15:00
+    Petek: 14:15
+- name: Zorko Liljana
+  klass: 2B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:23
+    Sreda: 13:53
+    Četrtek: 17:08
+    Petek: 17:59
+- name: Rožman Melita
+  klass: 2B
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:22
+    Sreda: 12:13
+    Četrtek: 13:44
+    Petek: 16:03
+- name: Dolenc Albina
+  klass: 2B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:47
+    Sreda: 13:18
+    Četrtek: 14:55
+    Petek: 17:52
+- name: Maček Karin
+  klass: 2B
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:24
+    Sreda: 14:20
+    Četrtek: 13:00
+    Petek: 15:17
+- name: Zupanc Anja
+  klass: 2B
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:09
+    Sreda: 15:19
+    Četrtek: 13:48
+    Petek: 16:19
+- name: Nikolić Marta
+  klass: 2B
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:17
+    Sreda: 17:16
+    Četrtek: 13:26
+    Petek: 13:59
+- name: Lesjak Alojzij
+  klass: 2B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:45
+    Sreda: 17:18
+    Četrtek: 15:22
+    Petek: 16:13
+- name: Kralj Radovan
+  klass: 2B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:03
+    Sreda: 12:16
+    Četrtek: 15:13
+    Petek: 14:59
+- name: Babić Mateja
+  klass: 2B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:44
+    Sreda: 13:21
+    Četrtek: 16:24
+    Petek: 12:54
+- name: Kralj Ernest
+  klass: 2B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:38
+    Sreda: 15:47
+    Četrtek: 13:14
+    Petek: 12:00
+- name: Leban Metod
+  klass: 2B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:52
+    Sreda: 13:34
+    Četrtek: 16:41
+    Petek: 15:05
+- name: Knez Karmen
+  klass: 2B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:53
+    Sreda: 12:55
+    Četrtek: 15:05
+    Petek: 12:31
+- name: Hrovat Silvester
+  klass: 2B
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:43
+    Sreda: 14:21
+    Četrtek: 16:10
+    Petek: 12:19
+- name: Pušnik Gašper
+  klass: 2B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:49
+    Sreda: 17:00
+    Četrtek: 16:20
+    Petek: 12:46
+- name: Kolarič Lidija
+  klass: 2B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:29
+    Sreda: 12:12
+    Četrtek: 13:14
+    Petek: 16:37
+- name: Lavrič Franci
+  klass: 3A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:16
+    Sreda: 12:33
+    Četrtek: 13:29
+    Petek: 12:00
+- name: Kaučič Alen
+  klass: 3A
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:19
+    Sreda: 13:29
+    Četrtek: 13:41
+    Petek: 16:09
+- name: Petrović Nives
+  klass: 3A
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:15
+    Sreda: 12:50
+    Četrtek: 16:59
+    Petek: 12:48
+- name: Simonič Simon
+  klass: 3A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:27
+    Sreda: 13:17
+    Četrtek: 12:16
+    Petek: 16:13
+- name: Pogačar Jana
+  klass: 3A
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:58
+    Sreda: 16:14
+    Četrtek: 16:06
+    Petek: 16:38
+- name: Bogataj Milan
+  klass: 3A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:11
+    Sreda: 13:12
+    Četrtek: 16:50
+    Petek: 16:35
+- name: Erjavec Alex
+  klass: 3A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:00
+    Sreda: 17:14
+    Četrtek: 14:33
+    Petek: 16:56
+- name: Golob Darko
+  klass: 3A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:23
+    Sreda: 16:25
+    Četrtek: 13:57
+    Petek: 13:56
+- name: Tratnik Barbara
+  klass: 3A
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:57
+    Sreda: 13:49
+    Četrtek: 16:34
+    Petek: 15:12
+- name: Hafner Albina
+  klass: 3A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:00
+    Sreda: 16:40
+    Četrtek: 14:36
+    Petek: 17:36
+- name: Leskovar Milica
+  klass: 3A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:35
+    Sreda: 15:53
+    Četrtek: 17:19
+    Petek: 17:00
+- name: Žižek Matjaž
+  klass: 3A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:35
+    Sreda: 14:35
+    Četrtek: 14:02
+    Petek: 14:34
+- name: Ambrožič Nik
+  klass: 3A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:33
+    Sreda: 15:31
+    Četrtek: 16:51
+    Petek: 17:32
+- name: Simonič Alojzija
+  klass: 3A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:39
+    Sreda: 15:44
+    Četrtek: 14:37
+    Petek: 17:30
+- name: Vidic Vito
+  klass: 3A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:54
+    Sreda: 17:20
+    Četrtek: 13:24
+    Petek: 13:24
+- name: Zupančič Rok
+  klass: 3A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:27
+    Sreda: 14:17
+    Četrtek: 15:42
+    Petek: 12:58
+- name: Meglič Robert
+  klass: 3A
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:25
+    Sreda: 16:40
+    Četrtek: 12:15
+    Petek: 13:17
+- name: Bevc Rajko
+  klass: 3A
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:00
+    Sreda: 16:38
+    Četrtek: 12:43
+    Petek: 12:01
+- name: Sever Jakob
+  klass: 3A
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:58
+    Sreda: 13:09
+    Četrtek: 13:19
+    Petek: 17:59
+- name: Zemljič Tine
+  klass: 3A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:52
+    Sreda: 17:54
+    Četrtek: 13:09
+    Petek: 15:41
+- name: Zupančič Milena
+  klass: 3A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:37
+    Sreda: 17:46
+    Četrtek: 16:02
+    Petek: 14:05
+- name: Dolenc Magdalena
+  klass: 3A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:45
+    Sreda: 13:49
+    Četrtek: 17:44
+    Petek: 14:09
+- name: Leskovar Dušan
+  klass: 3A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:04
+    Sreda: 17:42
+    Četrtek: 17:40
+    Petek: 13:19
+- name: Golob Ljudmila
+  klass: 3A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:21
+    Sreda: 16:44
+    Četrtek: 16:41
+    Petek: 12:15
+- name: Petrovič Gabrijela
+  klass: 3A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:41
+    Sreda: 17:44
+    Četrtek: 12:26
+    Petek: 15:57
+- name: Markovič Tia
+  klass: 3A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:22
+    Sreda: 17:50
+    Četrtek: 12:19
+    Petek: 16:23
+- name: Bergant Pavel
+  klass: 3A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:03
+    Sreda: 13:24
+    Četrtek: 12:24
+    Petek: 14:33
+- name: Vodopivec Edvard
+  klass: 3A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:20
+    Sreda: 16:45
+    Četrtek: 14:21
+    Petek: 13:45
+- name: Kobal Žiga
+  klass: 3A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:04
+    Sreda: 16:30
+    Četrtek: 12:17
+    Petek: 14:08
+- name: Kovačević Dušanka
+  klass: 3A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:46
+    Sreda: 14:15
+    Četrtek: 12:09
+    Petek: 17:59
+- name: Žižek Zofija
+  klass: 4A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:55
+    Sreda: 17:22
+    Četrtek: 15:49
+    Petek: 12:16
+- name: Gorenc Liljana
+  klass: 4A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:01
+    Sreda: 14:37
+    Četrtek: 14:53
+    Petek: 16:41
+- name: Bezjak Ljudmila
+  klass: 4A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:47
+    Sreda: 15:29
+    Četrtek: 17:44
+    Petek: 17:19
+- name: Vidovič Sonja
+  klass: 4A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:06
+    Sreda: 17:31
+    Četrtek: 16:02
+    Petek: 13:19
+- name: Kristan Drago
+  klass: 4A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:21
+    Sreda: 14:43
+    Četrtek: 14:30
+    Petek: 14:05
+- name: Gajšek Slavica
+  klass: 4A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:43
+    Sreda: 12:10
+    Četrtek: 12:34
+    Petek: 15:57
+- name: Lazar Danilo
+  klass: 4A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:14
+    Sreda: 13:01
+    Četrtek: 16:03
+    Petek: 13:38
+- name: Kumer Ula
+  klass: 4A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:50
+    Sreda: 15:06
+    Četrtek: 17:41
+    Petek: 13:30
+- name: Kastelic Izidor
+  klass: 4A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:09
+    Sreda: 16:07
+    Četrtek: 17:04
+    Petek: 13:18
+- name: Begić Tanja
+  klass: 4A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:58
+    Sreda: 14:04
+    Četrtek: 15:26
+    Petek: 12:36
+- name: Logar Polonca
+  klass: 4A
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:11
+    Sreda: 17:05
+    Četrtek: 12:09
+    Petek: 15:22
+- name: Zakrajšek Karel
+  klass: 4A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:43
+    Sreda: 13:35
+    Četrtek: 14:54
+    Petek: 14:20
+- name: Janežič Maj
+  klass: 4A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:55
+    Sreda: 15:44
+    Četrtek: 14:27
+    Petek: 17:51
+- name: Kavčič Nastja
+  klass: 4A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:04
+    Sreda: 14:57
+    Četrtek: 14:23
+    Petek: 13:29
+- name: Sitar Maruša
+  klass: 4A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:31
+    Sreda: 16:00
+    Četrtek: 14:01
+    Petek: 15:00
+- name: Kralj Larisa
+  klass: 4A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:08
+    Sreda: 13:26
+    Četrtek: 15:02
+    Petek: 15:23
+- name: Pirc Ljudmila
+  klass: 4A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:52
+    Sreda: 16:54
+    Četrtek: 14:33
+    Petek: 12:43
+- name: Petek Luka
+  klass: 4A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:54
+    Sreda: 15:28
+    Četrtek: 12:49
+    Petek: 14:38
+- name: Tratnik Marica
+  klass: 4A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:43
+    Sreda: 12:47
+    Četrtek: 12:53
+    Petek: 16:11
+- name: Jereb Tea
+  klass: 4A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:55
+    Sreda: 17:31
+    Četrtek: 14:20
+    Petek: 16:19
+- name: Hafner Marko
+  klass: 4A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:09
+    Sreda: 16:55
+    Četrtek: 16:25
+    Petek: 12:33
+- name: Zemljič Milka
+  klass: 4A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:09
+    Sreda: 16:04
+    Četrtek: 17:29
+    Petek: 17:25
+- name: Janežič Melita
+  klass: 4A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:50
+    Sreda: 15:09
+    Četrtek: 12:05
+    Petek: 15:50
+- name: Markovič Sebastjan
+  klass: 4A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:27
+    Sreda: 16:27
+    Četrtek: 13:28
+    Petek: 16:31
+- name: Fras Karmen
+  klass: 4A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:04
+    Sreda: 17:45
+    Četrtek: 13:17
+    Petek: 14:01
+- name: Kobal Drago
+  klass: 4A
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:40
+    Sreda: 14:26
+    Četrtek: 16:38
+    Petek: 15:41
+- name: Logar Joško
+  klass: 4A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:32
+    Sreda: 13:59
+    Četrtek: 15:10
+    Petek: 17:04
+- name: Pintar Rado
+  klass: 4A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:23
+    Sreda: 12:52
+    Četrtek: 15:22
+    Petek: 17:10
+- name: Klemenčič Stanislava
+  klass: 4A
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:56
+    Sreda: 13:21
+    Četrtek: 13:31
+    Petek: 13:43
+- name: Blatnik Denis
+  klass: 4A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:56
+    Sreda: 15:06
+    Četrtek: 16:30
+    Petek: 15:04
+- name: Gajšek Zdenko
+  klass: 4A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:08
+    Sreda: 13:24
+    Četrtek: 12:01
+    Petek: 16:59
+- name: Volk Saša
+  klass: 4B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:02
+    Sreda: 14:27
+    Četrtek: 16:40
+    Petek: 14:36
+- name: Stopar Emilija
+  klass: 4B
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:51
+    Sreda: 15:23
+    Četrtek: 15:37
+    Petek: 16:27
+- name: Pogačar Ida
+  klass: 4B
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:53
+    Sreda: 17:51
+    Četrtek: 16:36
+    Petek: 14:30
+- name: Rupnik Stanislav
+  klass: 4B
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:59
+    Sreda: 17:20
+    Četrtek: 17:40
+    Petek: 16:30
+- name: Zemljič Ljubica
+  klass: 4B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:35
+    Sreda: 16:52
+    Četrtek: 15:06
+    Petek: 12:02
+- name: Sitar Rozalija
+  klass: 4B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:56
+    Sreda: 12:15
+    Četrtek: 14:31
+    Petek: 12:12
+- name: Jenko Matija
+  klass: 4B
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:07
+    Sreda: 17:11
+    Četrtek: 13:51
+    Petek: 16:05
+- name: Kaučič Rene
+  klass: 4B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:58
+    Sreda: 12:32
+    Četrtek: 12:55
+    Petek: 15:29
+- name: Erjavec Mitja
+  klass: 4B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:33
+    Sreda: 13:36
+    Četrtek: 13:07
+    Petek: 16:47
+- name: Turk Liljana
+  klass: 4B
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:26
+    Sreda: 13:50
+    Četrtek: 14:47
+    Petek: 12:07
+- name: Pintarič Ivana
+  klass: 4B
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:09
+    Sreda: 16:55
+    Četrtek: 17:53
+    Petek: 14:53
+- name: Pintarič Vid
+  klass: 4B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:58
+    Sreda: 13:47
+    Četrtek: 12:30
+    Petek: 15:12
+- name: Perko Breda
+  klass: 4B
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:42
+    Sreda: 14:42
+    Četrtek: 17:19
+    Petek: 17:23
+- name: Leban Terezija
+  klass: 4B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:31
+    Sreda: 16:15
+    Četrtek: 15:11
+    Petek: 17:15
+- name: Jug Marjana
+  klass: 4B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:18
+    Sreda: 14:58
+    Četrtek: 15:21
+    Petek: 14:31
+- name: Bogataj Vlasta
+  klass: 4B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:55
+    Sreda: 16:13
+    Četrtek: 13:44
+    Petek: 14:30
+- name: Resnik Tomaž
+  klass: 4B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:53
+    Sreda: 12:24
+    Četrtek: 15:48
+    Petek: 13:58
+- name: Filipič Angela
+  klass: 4B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:37
+    Sreda: 15:30
+    Četrtek: 12:01
+    Petek: 13:10
+- name: Lah Timotej
+  klass: 4B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:43
+    Sreda: 14:24
+    Četrtek: 15:28
+    Petek: 12:34
+- name: Primožič Vid
+  klass: 4B
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:53
+    Sreda: 17:45
+    Četrtek: 14:17
+    Petek: 16:32
+- name: Košir Bernarda
+  klass: 4B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:31
+    Sreda: 12:35
+    Četrtek: 16:19
+    Petek: 17:49
+- name: Rajh Mia
+  klass: 4B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:38
+    Sreda: 14:27
+    Četrtek: 13:28
+    Petek: 15:41
+- name: Gregorič Stanko
+  klass: 4B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:53
+    Sreda: 17:59
+    Četrtek: 15:13
+    Petek: 15:18
+- name: Mrak Edvard
+  klass: 4B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:51
+    Sreda: 15:47
+    Četrtek: 16:15
+    Petek: 12:21
+- name: Jarc Rebeka
+  klass: 4B
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:30
+    Sreda: 13:15
+    Četrtek: 17:28
+    Petek: 16:53
+- name: Lah Anita
+  klass: 4B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:50
+    Sreda: 13:58
+    Četrtek: 12:11
+    Petek: 14:49
+- name: Javornik Zvonka
+  klass: 4B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:22
+    Sreda: 16:18
+    Četrtek: 13:21
+    Petek: 15:15
+- name: Kovačič Ludvik
+  klass: 4B
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:53
+    Sreda: 14:41
+    Četrtek: 14:55
+    Petek: 17:59
+- name: Kumer Emilija
+  klass: 4B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:00
+    Sreda: 17:46
+    Četrtek: 13:05
+    Petek: 12:28
+- name: Gregorič Zofija
+  klass: 4B
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:37
+    Sreda: 13:18
+    Četrtek: 16:14
+    Petek: 17:28
+- name: Rozman Lovro
+  klass: 4B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:56
+    Sreda: 14:00
+    Četrtek: 12:29
+    Petek: 16:09
+- name: Cerar Kaja
+  klass: 5A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:45
+    Sreda: 12:16
+    Četrtek: 12:23
+    Petek: 14:10
+- name: Zalokar Aleksander
+  klass: 5A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:09
+    Sreda: 16:57
+    Četrtek: 17:44
+    Petek: 15:29
+- name: Pogačnik Justina
+  klass: 5A
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:44
+    Sreda: 13:17
+    Četrtek: 14:19
+    Petek: 15:07
+- name: Turk Darja
+  klass: 5A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:31
+    Sreda: 17:53
+    Četrtek: 12:07
+    Petek: 14:48
+- name: Rupnik Albina
+  klass: 5A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:51
+    Sreda: 12:19
+    Četrtek: 15:40
+    Petek: 14:40
+- name: Lazar Vlasta
+  klass: 5A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:13
+    Sreda: 13:36
+    Četrtek: 15:40
+    Petek: 12:23
+- name: Golob Karolina
+  klass: 5A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:53
+    Sreda: 17:57
+    Četrtek: 12:35
+    Petek: 17:49
+- name: Zakrajšek Neža
+  klass: 5A
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:06
+    Sreda: 15:47
+    Četrtek: 12:33
+    Petek: 16:14
+- name: Klemenčič Jelena
+  klass: 5A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:53
+    Sreda: 17:17
+    Četrtek: 13:14
+    Petek: 12:04
+- name: Potočnik Drago
+  klass: 5A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:59
+    Sreda: 16:44
+    Četrtek: 16:05
+    Petek: 14:19
+- name: Jereb Mirko
+  klass: 5A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:19
+    Sreda: 15:50
+    Četrtek: 12:30
+    Petek: 12:54
+- name: Simonič Nada
+  klass: 5A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:32
+    Sreda: 12:31
+    Četrtek: 12:16
+    Petek: 13:22
+- name: Mlakar Bernarda
+  klass: 5A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:57
+    Sreda: 17:56
+    Četrtek: 17:57
+    Petek: 13:01
+- name: Gomboc Ivana
+  klass: 5A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:11
+    Sreda: 14:12
+    Četrtek: 13:03
+    Petek: 16:39
+- name: Kovačič Aleksander
+  klass: 5A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:51
+    Sreda: 13:15
+    Četrtek: 13:04
+    Petek: 16:03
+- name: Zalokar Marina
+  klass: 5A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:06
+    Sreda: 14:26
+    Četrtek: 16:05
+    Petek: 13:17
+- name: Mavrič David
+  klass: 5A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:19
+    Sreda: 13:55
+    Četrtek: 13:09
+    Petek: 12:01
+- name: Bogataj Neja
+  klass: 5A
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:11
+    Sreda: 15:49
+    Četrtek: 14:54
+    Petek: 16:30
+- name: Logar Ema
+  klass: 5A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:04
+    Sreda: 15:34
+    Četrtek: 15:03
+    Petek: 16:49
+- name: Sitar Taja
+  klass: 5A
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:39
+    Sreda: 12:27
+    Četrtek: 13:38
+    Petek: 12:45
+- name: Žižek Nika
+  klass: 5A
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:03
+    Sreda: 13:04
+    Četrtek: 13:01
+    Petek: 16:09
+- name: Koželj Rudi
+  klass: 5A
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:16
+    Sreda: 14:22
+    Četrtek: 13:36
+    Petek: 16:24
+- name: Blatnik Hana
+  klass: 5A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:04
+    Sreda: 16:32
+    Četrtek: 16:18
+    Petek: 14:25
+- name: Mohorič Hana
+  klass: 5A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:40
+    Sreda: 16:43
+    Četrtek: 17:51
+    Petek: 15:55
+- name: Petek Lovro
+  klass: 5A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:44
+    Sreda: 12:45
+    Četrtek: 15:17
+    Petek: 15:52
+- name: Jereb Marina
+  klass: 5A
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:18
+    Sreda: 14:54
+    Četrtek: 16:34
+    Petek: 12:17
+- name: Klemenčič Sašo
+  klass: 5A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:12
+    Sreda: 12:41
+    Četrtek: 12:40
+    Petek: 15:38
+- name: Debeljak Nadja
+  klass: 5A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:58
+    Sreda: 14:44
+    Četrtek: 12:43
+    Petek: 12:16
+- name: Nemec Tomislav
+  klass: 5A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:34
+    Sreda: 13:04
+    Četrtek: 15:21
+    Petek: 14:40
+- name: Zupančič Vid
+  klass: 5A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:11
+    Sreda: 16:28
+    Četrtek: 16:42
+    Petek: 17:22
+- name: Nikolić Dragan
+  klass: 5A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:56
+    Sreda: 15:08
+    Četrtek: 14:56
+    Petek: 17:50
+- name: Volk Klemen
+  klass: 5B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:12
+    Sreda: 14:17
+    Četrtek: 12:03
+    Petek: 17:52
+- name: Bezjak Erna
+  klass: 5B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:35
+    Sreda: 13:58
+    Četrtek: 17:10
+    Petek: 12:07
+- name: Ambrožič Jerneja
+  klass: 5B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:07
+    Sreda: 12:42
+    Četrtek: 12:17
+    Petek: 14:39
+- name: Marolt Tamara
+  klass: 5B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:06
+    Sreda: 14:18
+    Četrtek: 17:03
+    Petek: 15:51
+- name: Oblak Matija
+  klass: 5B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:54
+    Sreda: 15:29
+    Četrtek: 14:39
+    Petek: 13:20
+- name: Gashi Vincenc
+  klass: 5B
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:13
+    Sreda: 15:53
+    Četrtek: 15:24
+    Petek: 17:55
+- name: Zemljič Karl
+  klass: 5B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:05
+    Sreda: 17:39
+    Četrtek: 12:24
+    Petek: 16:59
+- name: Mlinar Dejan
+  klass: 5B
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:31
+    Sreda: 17:10
+    Četrtek: 12:06
+    Petek: 14:51
+- name: Žnidaršič Zdenko
+  klass: 5B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:49
+    Sreda: 15:13
+    Četrtek: 15:15
+    Petek: 13:13
+- name: Likar Edvard
+  klass: 5B
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:07
+    Sreda: 14:37
+    Četrtek: 13:23
+    Petek: 14:36
+- name: Kotnik Danilo
+  klass: 5B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:06
+    Sreda: 14:12
+    Četrtek: 16:24
+    Petek: 14:47
+- name: Petrović Bernard
+  klass: 5B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:39
+    Sreda: 17:16
+    Četrtek: 15:20
+    Petek: 15:50
+- name: Zorko Irena
+  klass: 5B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:47
+    Sreda: 15:25
+    Četrtek: 12:49
+    Petek: 16:55
+- name: Tavčar Leon
+  klass: 5B
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:09
+    Sreda: 15:37
+    Četrtek: 12:19
+    Petek: 15:15
+- name: Jovanović Milena
+  klass: 5B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:23
+    Sreda: 12:10
+    Četrtek: 17:06
+    Petek: 15:48
+- name: Kranjc Danijela
+  klass: 5B
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:39
+    Sreda: 14:42
+    Četrtek: 12:12
+    Petek: 13:37
+- name: Čuk Andraž
+  klass: 5B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:55
+    Sreda: 17:44
+    Četrtek: 12:44
+    Petek: 16:21
+- name: Podgoršek Elizabeta
+  klass: 5B
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:18
+    Sreda: 17:39
+    Četrtek: 15:31
+    Petek: 12:27
+- name: Mlinarič Melita
+  klass: 5B
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:39
+    Sreda: 17:27
+    Četrtek: 15:34
+    Petek: 16:00
+- name: Furlan Mira
+  klass: 5B
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:34
+    Sreda: 14:03
+    Četrtek: 14:52
+    Petek: 15:30
+- name: Breznik Živa
+  klass: 5B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:51
+    Sreda: 16:49
+    Četrtek: 12:55
+    Petek: 14:06
+- name: Lazar Davor
+  klass: 5B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:07
+    Sreda: 12:03
+    Četrtek: 15:09
+    Petek: 14:25
+- name: Šinkovec Dominik
+  klass: 5B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:03
+    Sreda: 13:19
+    Četrtek: 15:39
+    Petek: 13:50
+- name: Kramar Maruša
+  klass: 5B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:02
+    Sreda: 13:34
+    Četrtek: 16:53
+    Petek: 16:37
+- name: Kristan Dušanka
+  klass: 5B
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:00
+    Sreda: 14:48
+    Četrtek: 14:24
+    Petek: 14:27
+- name: Furlan Benjamin
+  klass: 5B
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:23
+    Sreda: 17:55
+    Četrtek: 13:13
+    Petek: 13:27
+- name: Štrukelj Josip
+  klass: 5B
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:26
+    Sreda: 13:07
+    Četrtek: 15:02
+    Petek: 13:26
+- name: Kumer Slavko
+  klass: 5B
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:16
+    Sreda: 16:51
+    Četrtek: 16:19
+    Petek: 16:53
+- name: Kalan Metka
+  klass: 5B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:32
+    Sreda: 14:20
+    Četrtek: 15:40
+    Petek: 16:04
+- name: Dolinar Viljem
+  klass: 6A
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:32
+    Sreda: 13:38
+    Četrtek: 17:52
+    Petek: 15:24
+- name: Knez David
+  klass: 6A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:18
+    Sreda: 16:41
+    Četrtek: 12:06
+    Petek: 13:30
+- name: Kočevar Robert
+  klass: 6A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:29
+    Sreda: 15:50
+    Četrtek: 15:35
+    Petek: 16:28
+- name: Lešnik Liljana
+  klass: 6A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:48
+    Sreda: 15:07
+    Četrtek: 17:20
+    Petek: 15:10
+- name: Likar Natalija
+  klass: 6A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:19
+    Sreda: 16:11
+    Četrtek: 16:02
+    Petek: 13:28
+- name: Pavlin Tatjana
+  klass: 6A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:57
+    Sreda: 13:19
+    Četrtek: 12:04
+    Petek: 16:23
+- name: Kokol Petar
+  klass: 6A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:44
+    Sreda: 15:03
+    Četrtek: 15:11
+    Petek: 15:27
+- name: Zupanc Patricija
+  klass: 6A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:13
+    Sreda: 16:03
+    Četrtek: 14:41
+    Petek: 12:37
+- name: Mlinarič Kristina
+  klass: 6A
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:54
+    Sreda: 16:50
+    Četrtek: 15:40
+    Petek: 13:14
+- name: Sitar Ignac
+  klass: 6A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:34
+    Sreda: 14:51
+    Četrtek: 14:18
+    Petek: 15:42
+- name: Zajc Lana
+  klass: 6A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:06
+    Sreda: 17:40
+    Četrtek: 12:41
+    Petek: 17:36
+- name: Bergant Bojan
+  klass: 6A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:24
+    Sreda: 14:36
+    Četrtek: 14:40
+    Petek: 15:36
+- name: Jelen Bogomir
+  klass: 6A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:37
+    Sreda: 13:26
+    Četrtek: 15:26
+    Petek: 12:22
+- name: Lešnik Darinka
+  klass: 6A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:46
+    Sreda: 13:14
+    Četrtek: 14:39
+    Petek: 14:14
+- name: Breznik Karl
+  klass: 6A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:32
+    Sreda: 16:55
+    Četrtek: 13:20
+    Petek: 14:11
+- name: Begić Ivanka
+  klass: 6A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:20
+    Sreda: 14:24
+    Četrtek: 12:52
+    Petek: 13:46
+- name: Vidovič Patricija
+  klass: 6A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:05
+    Sreda: 12:08
+    Četrtek: 13:04
+    Petek: 17:13
+- name: Lešnik Pavla
+  klass: 6A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:08
+    Sreda: 14:01
+    Četrtek: 17:56
+    Petek: 13:44
+- name: Pavlin Miran
+  klass: 6A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:15
+    Sreda: 16:12
+    Četrtek: 14:02
+    Petek: 17:22
+- name: Kuhar Gašper
+  klass: 6A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:40
+    Sreda: 17:21
+    Četrtek: 17:28
+    Petek: 16:45
+- name: Horvat Rudi
+  klass: 6A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:43
+    Sreda: 16:42
+    Četrtek: 12:14
+    Petek: 12:29
+- name: Kristan Tian
+  klass: 6A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:55
+    Sreda: 12:47
+    Četrtek: 15:22
+    Petek: 15:37
+- name: Bezjak Darja
+  klass: 6A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:37
+    Sreda: 14:11
+    Četrtek: 12:56
+    Petek: 12:07
+- name: Zupančič Olga
+  klass: 6A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:35
+    Sreda: 16:03
+    Četrtek: 17:46
+    Petek: 17:25
+- name: Zupančič Neža
+  klass: 6A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:00
+    Sreda: 13:53
+    Četrtek: 17:44
+    Petek: 12:25
+- name: Hozjan Martin
+  klass: 6A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:36
+    Sreda: 16:32
+    Četrtek: 12:59
+    Petek: 12:36
+- name: Blažič Mateja
+  klass: 6A
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:57
+    Sreda: 13:01
+    Četrtek: 16:23
+    Petek: 16:33
+- name: Šmid Lovro
+  klass: 6A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:50
+    Sreda: 14:18
+    Četrtek: 13:52
+    Petek: 15:40
+- name: Kalan Joško
+  klass: 6A
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:54
+    Sreda: 16:23
+    Četrtek: 15:05
+    Petek: 15:36
+- name: Furlan Ksenija
+  klass: 6A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:03
+    Sreda: 15:38
+    Četrtek: 17:31
+    Petek: 17:36
+- name: Jarc Valentina
+  klass: 6A
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:02
+    Sreda: 16:37
+    Četrtek: 12:34
+    Petek: 15:12
+- name: Rožič Majda
+  klass: 7A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:23
+    Sreda: 13:58
+    Četrtek: 16:07
+    Petek: 16:05
+- name: Zupanc Marica
+  klass: 7A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:19
+    Sreda: 17:09
+    Četrtek: 15:57
+    Petek: 13:31
+- name: Bizjak Vera
+  klass: 7A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:37
+    Sreda: 12:50
+    Četrtek: 16:16
+    Petek: 17:41
+- name: Kramberger Samo
+  klass: 7A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:27
+    Sreda: 14:59
+    Četrtek: 13:53
+    Petek: 15:43
+- name: Sušnik Mihaela
+  klass: 7A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:29
+    Sreda: 15:45
+    Četrtek: 16:55
+    Petek: 14:39
+- name: Blažič Zala
+  klass: 7A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:11
+    Sreda: 12:39
+    Četrtek: 13:45
+    Petek: 17:20
+- name: Turk Ignac
+  klass: 7A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:55
+    Sreda: 12:18
+    Četrtek: 13:03
+    Petek: 14:56
+- name: Hozjan Lan
+  klass: 7A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:10
+    Sreda: 15:57
+    Četrtek: 14:55
+    Petek: 13:11
+- name: Jovanović Vladimir
+  klass: 7A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:19
+    Sreda: 14:03
+    Četrtek: 13:47
+    Petek: 17:27
+- name: Lebar Mihaela
+  klass: 7A
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:24
+    Sreda: 13:43
+    Četrtek: 17:17
+    Petek: 17:42
+- name: Ilić Aleksander
+  klass: 7A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:43
+    Sreda: 17:24
+    Četrtek: 15:13
+    Petek: 16:13
+- name: Toplak Vinko
+  klass: 7A
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:52
+    Sreda: 15:51
+    Četrtek: 12:59
+    Petek: 13:46
+- name: Zemljič Urban
+  klass: 7A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:34
+    Sreda: 14:05
+    Četrtek: 17:09
+    Petek: 15:21
+- name: Gorjup Alojzija
+  klass: 7A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:31
+    Sreda: 14:39
+    Četrtek: 15:59
+    Petek: 16:18
+- name: Logar Primož
+  klass: 7A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:27
+    Sreda: 15:18
+    Četrtek: 17:30
+    Petek: 14:54
+- name: Janežič Aleš
+  klass: 7A
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:17
+    Sreda: 17:53
+    Četrtek: 17:16
+    Petek: 14:59
+- name: Kotnik Suzana
+  klass: 7A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:21
+    Sreda: 16:08
+    Četrtek: 13:01
+    Petek: 14:32
+- name: Debeljak Miroslava
+  klass: 7A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:07
+    Sreda: 12:09
+    Četrtek: 16:05
+    Petek: 12:40
+- name: Potočnik Cecilija
+  klass: 7A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:18
+    Sreda: 15:47
+    Četrtek: 15:57
+    Petek: 17:08
+- name: Ribič Sonja
+  klass: 7A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:06
+    Sreda: 16:48
+    Četrtek: 12:44
+    Petek: 12:38
+- name: Golob Ernest
+  klass: 7A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:08
+    Sreda: 13:30
+    Četrtek: 13:53
+    Petek: 17:16
+- name: Petrovič Alja
+  klass: 7A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:21
+    Sreda: 14:28
+    Četrtek: 14:19
+    Petek: 13:54
+- name: Zupančič Amalija
+  klass: 7A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:07
+    Sreda: 13:49
+    Četrtek: 15:24
+    Petek: 17:23
+- name: Kramberger Simon
+  klass: 7A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:39
+    Sreda: 14:05
+    Četrtek: 14:11
+    Petek: 13:18
+- name: Petrič Dušan
+  klass: 7A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:52
+    Sreda: 16:27
+    Četrtek: 17:12
+    Petek: 14:46
+- name: Černe Ema
+  klass: 7A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:52
+    Sreda: 15:11
+    Četrtek: 16:41
+    Petek: 12:42
+- name: Žagar Miroslava
+  klass: 7B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:51
+    Sreda: 14:14
+    Četrtek: 14:47
+    Petek: 17:36
+- name: Rupnik Kaja
+  klass: 7B
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:24
+    Sreda: 14:58
+    Četrtek: 12:14
+    Petek: 12:31
+- name: Klemenčič Jani
+  klass: 7B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:13
+    Sreda: 13:27
+    Četrtek: 17:26
+    Petek: 17:22
+- name: Šmid Miran
+  klass: 7B
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:40
+    Sreda: 17:39
+    Četrtek: 13:46
+    Petek: 16:51
+- name: Jenko Rudolf
+  klass: 7B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:58
+    Sreda: 17:03
+    Četrtek: 17:08
+    Petek: 13:48
+- name: Jarc Zdenko
+  klass: 7B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:14
+    Sreda: 13:50
+    Četrtek: 15:26
+    Petek: 13:42
+- name: Hribar Angela
+  klass: 7B
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:21
+    Sreda: 15:26
+    Četrtek: 13:47
+    Petek: 17:48
+- name: Mavrič Iztok
+  klass: 7B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:06
+    Sreda: 17:49
+    Četrtek: 14:52
+    Petek: 13:14
+- name: Dolinar Martina
+  klass: 7B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:28
+    Sreda: 16:47
+    Četrtek: 16:49
+    Petek: 14:30
+- name: Oblak Aleksandra
+  klass: 7B
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:57
+    Sreda: 13:32
+    Četrtek: 12:21
+    Petek: 14:50
+- name: Ilić Janko
+  klass: 7B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:34
+    Sreda: 15:34
+    Četrtek: 13:06
+    Petek: 14:51
+- name: Rajh Suzana
+  klass: 7B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:54
+    Sreda: 12:48
+    Četrtek: 16:15
+    Petek: 16:34
+- name: Blažič Alojzija
+  klass: 7B
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:47
+    Sreda: 15:13
+    Četrtek: 14:30
+    Petek: 15:18
+- name: Zupančič Andrej
+  klass: 7B
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:41
+    Sreda: 14:31
+    Četrtek: 15:01
+    Petek: 17:38
+- name: Zupanc Pavla
+  klass: 7B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:24
+    Sreda: 12:43
+    Četrtek: 13:38
+    Petek: 13:22
+- name: Dolenc Ivanka
+  klass: 7B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:55
+    Sreda: 14:04
+    Četrtek: 15:58
+    Petek: 16:20
+- name: Ambrožič Vito
+  klass: 7B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:45
+    Sreda: 15:13
+    Četrtek: 16:21
+    Petek: 12:48
+- name: Eržen Kristina
+  klass: 7B
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:06
+    Sreda: 13:26
+    Četrtek: 14:38
+    Petek: 16:29
+- name: Sever Petra
+  klass: 7B
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:44
+    Sreda: 15:56
+    Četrtek: 14:28
+    Petek: 14:25
+- name: Kumer Neja
+  klass: 7B
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:44
+    Sreda: 15:13
+    Četrtek: 15:26
+    Petek: 15:31
+- name: Fras Marijan
+  klass: 7B
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:28
+    Sreda: 15:38
+    Četrtek: 16:56
+    Petek: 13:58
+- name: Debeljak Lucija
+  klass: 7B
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:27
+    Sreda: 17:14
+    Četrtek: 15:57
+    Petek: 13:52
+- name: Korošec Olga
+  klass: 7B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:13
+    Sreda: 12:01
+    Četrtek: 14:30
+    Petek: 13:45
+- name: Koželj Gal
+  klass: 7B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:53
+    Sreda: 15:32
+    Četrtek: 16:42
+    Petek: 15:58
+- name: Stopar Avgust
+  klass: 7B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:52
+    Sreda: 17:05
+    Četrtek: 12:17
+    Petek: 16:21
+- name: Petrič Jurij
+  klass: 7B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:11
+    Sreda: 15:51
+    Četrtek: 14:34
+    Petek: 17:36
+- name: Sever Jan
+  klass: 7C
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:31
+    Sreda: 13:21
+    Četrtek: 17:39
+    Petek: 14:27
+- name: Jarc Marjanca
+  klass: 7C
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:38
+    Sreda: 17:37
+    Četrtek: 17:19
+    Petek: 16:51
+- name: Mlinar Samo
+  klass: 7C
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:03
+    Sreda: 17:47
+    Četrtek: 14:59
+    Petek: 12:35
+- name: Jerič Teo
+  klass: 7C
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:30
+    Sreda: 16:22
+    Četrtek: 14:03
+    Petek: 15:19
+- name: Hafner Vojko
+  klass: 7C
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:21
+    Sreda: 17:19
+    Četrtek: 13:01
+    Petek: 16:22
+- name: Zalokar Tea
+  klass: 7C
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:10
+    Sreda: 17:00
+    Četrtek: 14:56
+    Petek: 16:33
+- name: Pavlič Rudi
+  klass: 7C
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:15
+    Sreda: 17:59
+    Četrtek: 14:02
+    Petek: 12:20
+- name: Babić Ela
+  klass: 7C
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:54
+    Sreda: 16:06
+    Četrtek: 17:47
+    Petek: 17:56
+- name: Kaučič Jelena
+  klass: 7C
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:34
+    Sreda: 15:49
+    Četrtek: 15:21
+    Petek: 17:52
+- name: Klemenčič Tia
+  klass: 7C
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:25
+    Sreda: 14:07
+    Četrtek: 17:55
+    Petek: 17:56
+- name: Kranjc Maja
+  klass: 7C
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:49
+    Sreda: 12:11
+    Četrtek: 12:17
+    Petek: 12:13
+- name: Maček Jaka
+  klass: 7C
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:03
+    Sreda: 13:01
+    Četrtek: 15:26
+    Petek: 12:17
+- name: Horvat Štefan
+  klass: 7C
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:03
+    Sreda: 14:31
+    Četrtek: 12:57
+    Petek: 13:20
+- name: Jerman Lara
+  klass: 7C
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:17
+    Sreda: 12:14
+    Četrtek: 14:35
+    Petek: 12:39
+- name: Zalokar Filip
+  klass: 7C
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:06
+    Sreda: 17:56
+    Četrtek: 16:08
+    Petek: 14:30
+- name: Tomšič Matej
+  klass: 7C
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:09
+    Sreda: 12:21
+    Četrtek: 16:51
+    Petek: 12:53
+- name: Blažič Željko
+  klass: 7C
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:16
+    Sreda: 14:20
+    Četrtek: 15:05
+    Petek: 13:39
+- name: Godec Vanja
+  klass: 7C
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:37
+    Sreda: 15:42
+    Četrtek: 15:12
+    Petek: 16:41
+- name: Žagar Zlatka
+  klass: 7C
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:36
+    Sreda: 14:27
+    Četrtek: 17:07
+    Petek: 17:28
+- name: Rutar Goran
+  klass: 7C
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:15
+    Sreda: 17:07
+    Četrtek: 17:43
+    Petek: 14:51
+- name: Kranjc Neža
+  klass: 7C
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:38
+    Sreda: 14:14
+    Četrtek: 12:33
+    Petek: 12:50
+- name: Kobal Jani
+  klass: 7C
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:42
+    Sreda: 13:42
+    Četrtek: 15:23
+    Petek: 16:53
+- name: Zadravec Majda
+  klass: 7C
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:04
+    Sreda: 14:44
+    Četrtek: 12:39
+    Petek: 16:32
+- name: Založnik Ines
+  klass: 7C
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:31
+    Sreda: 14:45
+    Četrtek: 15:40
+    Petek: 17:42
+- name: Železnik Marijan
+  klass: 7C
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:08
+    Sreda: 14:03
+    Četrtek: 14:40
+    Petek: 12:27
+- name: Zalar Polona
+  klass: 7C
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:51
+    Sreda: 17:13
+    Četrtek: 16:11
+    Petek: 12:56
+- name: Sever Mojca
+  klass: 8A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:55
+    Sreda: 17:08
+    Četrtek: 17:21
+    Petek: 15:42
+- name: Popović Breda
+  klass: 8A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:23
+    Sreda: 15:13
+    Četrtek: 14:00
+    Petek: 16:47
+- name: Zver Stanislav
+  klass: 8A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:37
+    Sreda: 15:34
+    Četrtek: 15:01
+    Petek: 13:03
+- name: Založnik Franc
+  klass: 8A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:16
+    Sreda: 15:38
+    Četrtek: 13:20
+    Petek: 16:01
+- name: Hozjan Maja
+  klass: 8A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:04
+    Sreda: 17:00
+    Četrtek: 13:11
+    Petek: 16:25
+- name: Kovač Romana
+  klass: 8A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:11
+    Sreda: 13:25
+    Četrtek: 13:37
+    Petek: 13:45
+- name: Korošec Klemen
+  klass: 8A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:47
+    Sreda: 12:27
+    Četrtek: 12:56
+    Petek: 15:54
+- name: Kristan Doroteja
+  klass: 8A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:44
+    Sreda: 12:02
+    Četrtek: 17:50
+    Petek: 13:04
+- name: Jamnik David
+  klass: 8A
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:59
+    Sreda: 13:19
+    Četrtek: 15:04
+    Petek: 12:33
+- name: Jug Justina
+  klass: 8A
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:46
+    Sreda: 16:40
+    Četrtek: 16:57
+    Petek: 13:57
+- name: Blažič Branka
+  klass: 8A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:17
+    Sreda: 13:38
+    Četrtek: 12:13
+    Petek: 17:26
+- name: Kocjančič Stanislav
+  klass: 8A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:07
+    Sreda: 13:04
+    Četrtek: 16:12
+    Petek: 14:20
+- name: Božič Oskar
+  klass: 8A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:20
+    Sreda: 12:55
+    Četrtek: 13:39
+    Petek: 12:15
+- name: Skok Barbara
+  klass: 8A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:29
+    Sreda: 16:18
+    Četrtek: 13:35
+    Petek: 17:02
+- name: Mlinar Doroteja
+  klass: 8A
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:19
+    Sreda: 16:12
+    Četrtek: 16:13
+    Petek: 12:39
+- name: Lazar Josip
+  klass: 8A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:04
+    Sreda: 16:48
+    Četrtek: 13:25
+    Petek: 12:34
+- name: Skok Hana
+  klass: 8A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:21
+    Sreda: 12:16
+    Četrtek: 12:53
+    Petek: 12:36
+- name: Zajc Sara
+  klass: 8A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:50
+    Sreda: 14:49
+    Četrtek: 17:54
+    Petek: 17:26
+- name: Zakrajšek Viktorija
+  klass: 8A
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:13
+    Sreda: 13:09
+    Četrtek: 14:29
+    Petek: 13:37
+- name: Kovač Tomislav
+  klass: 8A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:55
+    Sreda: 16:18
+    Četrtek: 16:34
+    Petek: 15:10
+- name: Šmid Danica
+  klass: 8A
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:16
+    Sreda: 12:32
+    Četrtek: 14:29
+    Petek: 16:44
+- name: Zver Miha
+  klass: 8A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:58
+    Sreda: 15:03
+    Četrtek: 17:22
+    Petek: 12:55
+- name: Zupančič Matjaž
+  klass: 8A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:33
+    Sreda: 16:35
+    Četrtek: 16:23
+    Petek: 16:48
+- name: Hodžić Željko
+  klass: 8A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:06
+    Sreda: 13:27
+    Četrtek: 16:59
+    Petek: 14:47
+- name: Kotnik Drago
+  klass: 8A
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:12
+    Sreda: 15:46
+    Četrtek: 15:45
+    Petek: 17:33
+- name: Rožman Joško
+  klass: 8A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:03
+    Sreda: 16:55
+    Četrtek: 12:19
+    Petek: 15:09
+- name: Petrič Ivan
+  klass: 8A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:13
+    Sreda: 13:10
+    Četrtek: 14:52
+    Petek: 15:48
+- name: Kramar Vito
+  klass: 8A
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:34
+    Sreda: 16:44
+    Četrtek: 12:47
+    Petek: 17:07
+- name: Kramar Milan
+  klass: 8A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:59
+    Sreda: 16:23
+    Četrtek: 17:36
+    Petek: 15:42
+- name: Gorišek Saša
+  klass: 8A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:35
+    Sreda: 15:40
+    Četrtek: 17:50
+    Petek: 17:15
+- name: Bizjak Tinkara
+  klass: 8B
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:12
+    Sreda: 16:19
+    Četrtek: 17:02
+    Petek: 16:11
+- name: Močnik Gaja
+  klass: 8B
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:05
+    Sreda: 16:19
+    Četrtek: 12:15
+    Petek: 14:37
+- name: Petrović Vinko
+  klass: 8B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:15
+    Sreda: 12:38
+    Četrtek: 15:05
+    Petek: 12:12
+- name: Mlinar Zoran
+  klass: 8B
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:16
+    Sreda: 15:22
+    Četrtek: 14:00
+    Petek: 17:30
+- name: Kolarič Slobodan
+  klass: 8B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:32
+    Sreda: 17:00
+    Četrtek: 12:20
+    Petek: 12:35
+- name: Resnik Aljaž
+  klass: 8B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:44
+    Sreda: 17:39
+    Četrtek: 12:56
+    Petek: 15:09
+- name: Pintarič Danijel
+  klass: 8B
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:54
+    Sreda: 15:26
+    Četrtek: 13:29
+    Petek: 17:17
+- name: Kovačič Jan
+  klass: 8B
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:24
+    Sreda: 17:02
+    Četrtek: 14:08
+    Petek: 17:30
+- name: Humar Nadja
+  klass: 8B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:16
+    Sreda: 16:37
+    Četrtek: 15:29
+    Petek: 14:14
+- name: Mlinarič Ajda
+  klass: 8B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:16
+    Sreda: 16:29
+    Četrtek: 16:17
+    Petek: 16:08
+- name: Tomšič Zlatko
+  klass: 8B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:24
+    Sreda: 16:33
+    Četrtek: 15:46
+    Petek: 12:54
+- name: Zupančič Tina
+  klass: 8B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:24
+    Sreda: 13:42
+    Četrtek: 12:54
+    Petek: 13:16
+- name: Logar Rozalija
+  klass: 8B
+  activities:
+    - Zgodovinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:12
+    Sreda: 15:32
+    Četrtek: 16:39
+    Petek: 16:21
+- name: Kolar Denis
+  klass: 8B
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:48
+    Sreda: 14:56
+    Četrtek: 12:53
+    Petek: 17:25
+- name: Sitar Vinko
+  klass: 8B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:01
+    Sreda: 12:30
+    Četrtek: 16:31
+    Petek: 14:02
+- name: Godec Marcel
+  klass: 8B
+  activities:
+    - Kemijski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:42
+    Sreda: 14:23
+    Četrtek: 17:00
+    Petek: 14:37
+- name: Mlinar Veronika
+  klass: 8B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:30
+    Sreda: 16:38
+    Četrtek: 14:33
+    Petek: 12:54
+- name: Bizjak Petra
+  klass: 8B
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:15
+    Sreda: 13:04
+    Četrtek: 15:15
+    Petek: 17:50
+- name: Petrič Nevenka
+  klass: 8B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:39
+    Sreda: 15:59
+    Četrtek: 16:32
+    Petek: 16:31
+- name: Cerar Zvonka
+  klass: 8B
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:41
+    Sreda: 17:15
+    Četrtek: 13:56
+    Petek: 16:51
+- name: Likar Neža
+  klass: 8B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:34
+    Sreda: 12:30
+    Četrtek: 13:37
+    Petek: 12:56
+- name: Štrukelj Anej
+  klass: 8B
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:02
+    Sreda: 14:57
+    Četrtek: 13:28
+    Petek: 12:19
+- name: Pavlin Maks
+  klass: 8B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:12
+    Sreda: 15:06
+    Četrtek: 16:20
+    Petek: 17:17
+- name: Gomboc Milica
+  klass: 8B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:25
+    Sreda: 13:01
+    Četrtek: 15:32
+    Petek: 14:56
+- name: Pavlović Nataša
+  klass: 8B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:18
+    Sreda: 13:08
+    Četrtek: 12:28
+    Petek: 12:04
+- name: Kristan Stanislava
+  klass: 8B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:48
+    Sreda: 16:41
+    Četrtek: 12:10
+    Petek: 17:34
+- name: Toplak Drago
+  klass: 8B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:12
+    Sreda: 16:01
+    Četrtek: 16:13
+    Petek: 17:51
+- name: Vovk Mitja
+  klass: 8B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:30
+    Sreda: 13:02
+    Četrtek: 15:35
+    Petek: 12:04
+- name: Kristan Jurij
+  klass: 8B
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:32
+    Sreda: 13:22
+    Četrtek: 16:41
+    Petek: 15:31
+- name: Cerar Rozalija
+  klass: 8B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:02
+    Sreda: 16:21
+    Četrtek: 15:06
+    Petek: 14:06
+- name: Krajnc Ivana
+  klass: 8B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:01
+    Sreda: 15:12
+    Četrtek: 13:43
+    Petek: 14:39
+- name: Begić Maksimiljan
+  klass: 9A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:23
+    Sreda: 17:51
+    Četrtek: 17:21
+    Petek: 12:18
+- name: Černe Karin
+  klass: 9A
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:10
+    Sreda: 13:09
+    Četrtek: 14:21
+    Petek: 17:19
+- name: Babič Sebastijan
+  klass: 9A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:32
+    Sreda: 13:19
+    Četrtek: 16:40
+    Petek: 17:32
+- name: Zorko Vid
+  klass: 9A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:03
+    Sreda: 16:44
+    Četrtek: 16:49
+    Petek: 16:03
+- name: Pogačnik Marta
+  klass: 9A
+  activities:
+    - Pevski zbor mlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:35
+    Sreda: 14:56
+    Četrtek: 14:57
+    Petek: 12:12
+- name: Bezjak Tia
+  klass: 9A
+  activities:
+    - Šah
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:07
+    Sreda: 14:03
+    Četrtek: 14:12
+    Petek: 16:41
+- name: Vidmar Simona
+  klass: 9A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:10
+    Sreda: 14:51
+    Četrtek: 12:17
+    Petek: 15:10
+- name: Kovačič Leopold
+  klass: 9A
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:51
+    Sreda: 13:24
+    Četrtek: 17:47
+    Petek: 15:01
+- name: Lavrič Brigita
+  klass: 9A
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:28
+    Sreda: 16:34
+    Četrtek: 12:22
+    Petek: 17:37
+- name: Hrovat Antonija
+  klass: 9A
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:38
+    Sreda: 16:39
+    Četrtek: 15:06
+    Petek: 15:03
+- name: Rajh Tomaž
+  klass: 9A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:31
+    Sreda: 14:29
+    Četrtek: 12:43
+    Petek: 15:20
+- name: Miklavčič Maruša
+  klass: 9A
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:30
+    Sreda: 17:26
+    Četrtek: 13:35
+    Petek: 16:41
+- name: Škof Žiga
+  klass: 9A
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:55
+    Sreda: 14:32
+    Četrtek: 15:03
+    Petek: 17:05
+- name: Zorman Aleksander
+  klass: 9A
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:07
+    Sreda: 16:28
+    Četrtek: 15:35
+    Petek: 13:43
+- name: Štrukelj Alojzij
+  klass: 9A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:39
+    Sreda: 17:27
+    Četrtek: 14:22
+    Petek: 13:11
+- name: Gorišek David
+  klass: 9A
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:58
+    Sreda: 16:46
+    Četrtek: 12:07
+    Petek: 12:23
+- name: Javornik Matej
+  klass: 9A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:30
+    Sreda: 13:09
+    Četrtek: 15:40
+    Petek: 15:24
+- name: Bezjak Vincenc
+  klass: 9A
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:05
+    Sreda: 15:36
+    Četrtek: 17:47
+    Petek: 15:46
+- name: Knez Mateja
+  klass: 9A
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:46
+    Sreda: 13:56
+    Četrtek: 16:01
+    Petek: 16:52
+- name: Godec Erna
+  klass: 9A
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:54
+    Sreda: 15:41
+    Četrtek: 17:17
+    Petek: 13:29
+- name: Humar Lovro
+  klass: 9A
+  activities:
+    - Plesne urice
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:16
+    Sreda: 12:20
+    Četrtek: 16:35
+    Petek: 17:29
+- name: Kavčič Blanka
+  klass: 9A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:54
+    Sreda: 12:46
+    Četrtek: 16:40
+    Petek: 16:10
+- name: Mlinarič Nataša
+  klass: 9A
+  activities:
+    - Novinarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:36
+    Sreda: 12:07
+    Četrtek: 16:43
+    Petek: 13:16
+- name: Perko Damjana
+  klass: 9A
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:30
+    Sreda: 14:50
+    Četrtek: 13:33
+    Petek: 13:29
+- name: Bogataj Marijana
+  klass: 9A
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:09
+    Sreda: 17:56
+    Četrtek: 15:42
+    Petek: 13:59
+- name: Fras Peter
+  klass: 9B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:23
+    Sreda: 15:24
+    Četrtek: 15:43
+    Petek: 16:04
+- name: Bergant Dejan
+  klass: 9B
+  activities:
+    - Lego
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:22
+    Sreda: 16:10
+    Četrtek: 14:31
+    Petek: 17:16
+- name: Železnik Nevenka
+  klass: 9B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:11
+    Sreda: 16:11
+    Četrtek: 16:12
+    Petek: 17:31
+- name: Demšar Jurij
+  klass: 9B
+  activities:
+    - Pevski zbor starejši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:22
+    Sreda: 17:22
+    Četrtek: 12:16
+    Petek: 14:23
+- name: Jereb Sabina
+  klass: 9B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:21
+    Sreda: 16:10
+    Četrtek: 16:21
+    Petek: 12:35
+- name: Lebar Nikolaj
+  klass: 9B
+  activities:
+    - Nogomet 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:35
+    Sreda: 14:40
+    Četrtek: 17:08
+    Petek: 12:56
+- name: Sever Špela
+  klass: 9B
+  activities:
+    - Nogomet 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:51
+    Sreda: 13:27
+    Četrtek: 12:57
+    Petek: 16:09
+- name: Blažič Viktor
+  klass: 9B
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:37
+    Sreda: 15:50
+    Četrtek: 17:50
+    Petek: 16:13
+- name: Kramberger Antonija
+  klass: 9B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:25
+    Sreda: 13:46
+    Četrtek: 15:58
+    Petek: 14:09
+- name: Šinkovec Ladislav
+  klass: 9B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:10
+    Sreda: 16:53
+    Četrtek: 14:09
+    Petek: 17:11
+- name: Petrovič Martina
+  klass: 9B
+  activities:
+    - Judo 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:58
+    Sreda: 15:37
+    Četrtek: 16:25
+    Petek: 16:42
+- name: Bizjak Vid
+  klass: 9B
+  activities:
+    - Judo 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:32
+    Sreda: 17:24
+    Četrtek: 12:01
+    Petek: 15:24
+- name: Medved Drago
+  klass: 9B
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:18
+    Sreda: 15:06
+    Četrtek: 16:41
+    Petek: 12:41
+- name: Kolenc Andrej
+  klass: 9B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 17:06
+    Sreda: 12:51
+    Četrtek: 14:29
+    Petek: 13:13
+- name: Jarc Marjanca
+  klass: 9B
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:29
+    Sreda: 15:47
+    Četrtek: 15:54
+    Petek: 17:30
+- name: Zorko Lan
+  klass: 9B
+  activities:
+    - Računalništvo
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:18
+    Sreda: 13:04
+    Četrtek: 14:42
+    Petek: 16:01
+- name: Kuhar Adolf
+  klass: 9B
+  activities:
+    - Gimnastika 1
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:40
+    Sreda: 16:40
+    Četrtek: 17:47
+    Petek: 13:19
+- name: Kastelic Slobodan
+  klass: 9B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:06
+    Sreda: 13:58
+    Četrtek: 15:10
+    Petek: 17:26
+- name: Kumer Lara
+  klass: 9B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:01
+    Sreda: 14:01
+    Četrtek: 16:58
+    Petek: 15:03
+- name: Zakrajšek Oskar
+  klass: 9B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:18
+    Sreda: 17:27
+    Četrtek: 13:41
+    Petek: 13:16
+- name: Kovačević Andreja
+  klass: 9B
+  activities:
+    - Angleščina
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:05
+    Sreda: 16:18
+    Četrtek: 13:24
+    Petek: 17:59
+- name: Krajnc Taja
+  klass: 9B
+  activities:
+    - Igrajmo se znanost
+  leaveTimes:
+    Ponedeljek:
+    Torek: 12:50
+    Sreda: 17:24
+    Četrtek: 14:00
+    Petek: 13:22
+- name: Potočnik Rebeka
+  klass: 9B
+  activities:
+    - Gimnastika 2
+  leaveTimes:
+    Ponedeljek:
+    Torek: 15:39
+    Sreda: 17:46
+    Četrtek: 13:12
+    Petek: 12:24
+- name: Gregorič Simon
+  klass: 9B
+  activities:
+    - Planinski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 14:43
+    Sreda: 16:14
+    Četrtek: 14:12
+    Petek: 12:32
+- name: Majcen Janko
+  klass: 9B
+  activities:
+    - Košarka
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:37
+    Sreda: 16:52
+    Četrtek: 16:22
+    Petek: 14:44
+- name: Tomšič Elizabeta
+  klass: 9B
+  activities:
+    - Knjižnjičarski
+  leaveTimes:
+    Ponedeljek:
+    Torek: 13:52
+    Sreda: 12:40
+    Četrtek: 13:42
+    Petek: 12:07
+- name: Koren Karl
+  klass: 9B
+  activities:
+    - Pevski zbor najmlajši
+  leaveTimes:
+    Ponedeljek:
+    Torek: 16:27
+    Sreda: 17:17
+    Četrtek: 15:06
+    Petek: 15:40
+
