@@ -1,6 +1,13 @@
 package co.petrin.pupilism.ui
 
 import co.petrin.pupilism.storage.SavedProject
+import co.petrin.pupilism.ui.project.ActivitiesView
+import co.petrin.pupilism.ui.project.ClassesView
+import co.petrin.pupilism.ui.project.PeriodsView
+import co.petrin.pupilism.ui.project.PupilsView
+import co.petrin.pupilism.ui.viewmodel.ActivityModel
+import javafx.collections.FXCollections
+import javafx.collections.ObservableList
 import javafx.scene.Parent
 import javafx.scene.control.TabPane
 import tornadofx.*
@@ -8,6 +15,10 @@ import tornadofx.*
 class Project(val name: String, val project: SavedProject): View("Podaljšano bivanje učencev") {
     override val root: Parent
 
+    val classes = FXCollections.observableArrayList(project.classes)
+    val pupils = FXCollections.observableArrayList(project.pupils)
+    val activities = FXCollections.observableArrayList(project.activities.map(::ActivityModel))
+    val periods = FXCollections.observableArrayList(project.times)
 
     init {
         root = vbox {
@@ -34,16 +45,16 @@ class Project(val name: String, val project: SavedProject): View("Podaljšano bi
             tabpane {
                 tabClosingPolicy = TabPane.TabClosingPolicy.UNAVAILABLE
                 tab("Razredi") {
-                    label(project.classes.joinToString())
+                    content = ClassesView(classes).root
                 }
                 tab("Učenci") {
-                    label(project.pupils.joinToString())
+                    content = PupilsView(pupils, classes).root
                 }
                 tab("Ure") {
-                    label(project.times.joinToString())
+                    content = PeriodsView(periods).root
                 }
-                tab("Aktivnosti") {
-                    label(project.activities.joinToString())
+                tab("Krožki") {
+                    content = ActivitiesView(activities).root
                 }
             }
         }
